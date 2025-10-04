@@ -7,12 +7,14 @@ body{
 .calculator-body{
     display:flex;
     flex-direction: column;
-    background-color: #373f40;
+
     padding: 20px;
-    width: 20vw;
+    width: 35vw;
     height: 50vh;
-    min-width: 300px;
+    min-width: 400px;
     min-height: 550px;
+
+    background-color: #373f40;
 }
 
 .result-screen{
@@ -32,21 +34,30 @@ body{
     justify-content: space-between;
     align-items:center;
     flex:auto;
-    min-width: 150px;
 }
 
 .btn{
-    border: 10px;
-    border-color: gray;
-    border-radius: 15px;
-    margin-inline: 10px;
-    background-color: #272b2b;
     flex-grow: 1;
     align-self: stretch;
     text-align:center;
+    
+    margin-block: 20px;
+    margin-inline: 5px;
+    border-color: gray;
+    border-radius: 15px;
+    margin-inline: 2.5px;
+    padding-block: 15px;
+    padding-inline: 4px;
+    min-width: 55px;
+
     color: white;
+    background-color: #272b2b;
     font-weight: bolder;
     font-size: 40px;
+}
+
+.btn.text{
+    font-size: 32px;
 }
 
 #user-input{
