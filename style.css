@@ -2,6 +2,7 @@ body{
     display:flex;
     justify-content: center;
     padding-top: 15vh;
+    font-family: 'Noto Sans';
 }
 
 .calculator-body{
@@ -10,9 +11,9 @@ body{
 
     padding: 20px;
     width: 35vw;
-    height: 50vh;
+    height: 53vh;
     min-width: 400px;
-    min-height: 550px;
+    min-height: 575px;
 
     background-color: #373f40;
 }
@@ -52,18 +53,26 @@ body{
 
     color: white;
     background-color: #272b2b;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 40px;
 }
 
 .btn.text{
     font-size: 32px;
+    padding-block: 20px;
 }
 
 #user-input{
-    display:flex;
-    flex-grow: 1;
     background-color: #686b5b;
+    padding-inline: 12px;
+    margin-block: 8px;
+    height: 30px;
+
+    font-size: 24px;
+    text-align: end;
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 #result{
